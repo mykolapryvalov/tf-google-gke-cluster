@@ -1,0 +1,4 @@
+# Ігнорувати файли та папки, створені Terraform
+.terraform/
+lock.hcl
+

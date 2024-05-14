@@ -1,9 +1,9 @@
-provider "google" {
+#provider "google" {
   region = "us-central1"
   project = "test"
 }
 
-resource "google_compute_instance" "my_instance" {
+#resource "google_compute_instance" "my_instance" {
   zone = "us-central1-a"
   name = "test"
 
@@ -34,7 +34,7 @@ resource "google_compute_instance" "my_instance" {
   }
 }
 
-resource "google_cloudfunctions_function" "my_function" {
+#resource "google_cloudfunctions_function" "my_function" {
   runtime = "nodejs20"
   name = "test"
   available_memory_mb = 512
